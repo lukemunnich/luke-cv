@@ -2,9 +2,17 @@ h1{
     padding: 50px;
     margin: 20px;
     position: fixed;
-    right: 500px;
+    right: 300px;
     width: 300px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(241, 28, 28);
+    color: rgb(26, 22, 22);
+}
+#funny{ padding: 50px;
+    margin: 20px;
+    position: relative;
+    left: 400px;
+    top:100px;
+    width: 300px;
+    font-size: 30px;
 }
