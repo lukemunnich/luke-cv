@@ -1,21 +1,27 @@
 
 
-.mainhead{
-  width: 1000px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
+
 #image{
   float: right;
-  width: 60%;
+  width: 40%;
+  position:clear left;
   }
 
+ img{
+
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  
+ } 
+
 .headings{
-  width: 300px;
-  border: 15px solid green;
+  background-color: rgb(221, 109, 64);
+  border: 5px solid rgb(53, 54, 53);
   padding: 50px;
   margin: 20px;
   float:left;
-  width:35%;
+  height:500px;
+  width:400px;
+  
 }
