@@ -1,26 +1,26 @@
 
 #image{
-  margin-top:80px;
+  margin-top:20px;
   float: right;
   width: 40%;
   position:clear left;
   }
 
- img{
-  border-radius: 50%;
+ img{ 
   width: 400px;
-  height: 400px;
+  height: 580px;
  } 
 
 .headings{
   margin-top:80px;
-  background-color:#f5e6cc;
+  background-color:#c1c8e4;
   padding: 50px;
   margin: 00px;
   float:left;
   height:600px;
-  width:750px;
+  width:50%;
 }
+
 p{
 padding:10px;
 margin:10px;
