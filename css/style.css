@@ -1,22 +1,14 @@
 
-#image{
-  margin-top:20px;
+
+ img{
   float: right;
   width: 40%;
   position:clear left;
-  padding-top:100px;
-  }
-
- img{ 
-  width: 400px;
-  height: 580px;
  } 
 
 .headings{
-  margin-top:80px;
   background-color:#c1c8e4;
-  padding: 50px;
-  margin: 00px;
+  margin: 0px;
   float:left;
   width:50%;
   height:600px;
@@ -29,12 +21,12 @@ p {
 .rw-wrapper{
   float:left;
 	width: 45%;
-	margin: 50px auto 0 auto;
+	margin: 20px auto 0 auto;
 	font-family: 'Bree Serif';
-  padding-top: 100px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .rw-sentence{
+  position: relative;
 	margin:0px;
 	text-align: left;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
@@ -52,8 +44,9 @@ p {
 .rw-words span{
 	position: absolute;
 	opacity: 0;
-	overflow: hidden;
-	width: 100%;
+  overflow: hidden;
+  
+	width:70%;
 	color: #6b969d;
 }
 .rw-words-1 span{
@@ -93,3 +86,4 @@ p {
   27% { opacity: 0; width: 100%; }
   100% { opacity: 0; }
 }
+
