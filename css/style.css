@@ -2,29 +2,22 @@
 
  img{
   float: right;
-  width: 50%;
+  width: 60%;
+  height:50%;
   position:clear left;
+  top:opx;
  } 
-
-.headings{
-  background-color:#c1c8e4;
-  margin: 0px;
-  float:left;
-  width:45%;
-  height:600px;
-}
 
 .rw-wrapper{
   float:left;
-	width: 45%;
-	margin: 20px auto 0 auto;
+	width: 35%;
+	margin: 10px auto 0 auto;
 	font-family: 'Bree Serif';
-  padding-left: 20px;
 }
 .rw-sentence{
   position: relative;
 	margin:0px;
-	text-align: left;
+	text-align: center;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
 .rw-sentence span{
@@ -32,17 +25,17 @@
 	white-space: nowrap;
 	font-size: 200%;
 	font-weight: normal;
+
 }
 .rw-words{
 	display: inline;
-	text-indent: 10px;
+	text-indent: 20px;
 }
 .rw-words span{
 	position: absolute;
 	opacity: 0;
   overflow: hidden;
-  
-	width:70%;
+	width:100%;
 	color: #6b969d;
 }
 .rw-words-1 span{
@@ -89,19 +82,25 @@
 	border:transparent;
 	margin:opx;
 	padding:0px;
-	background-image: linear-gradient(90deg ,#c1c8e4 50%,white 50%);
+	background-image: linear-gradient(90deg ,#c1c8e4 75%,white 25%);
 	display:none;
 	position:fixed;
-	top:200px;
-	left:540px;
+	bottom:180px;
+	left:336px;
 }
+
 #mySecondiv{
 	border:transparent;
 	margin:opx;
 	padding:0px;
-	background-image: linear-gradient(90deg ,#c1c8e4 50%,white 50%);
+	background-image: linear-gradient(90deg ,#c1c8e4 65%,white 35%);
 	display:none;
 	position:fixed;
-	top:342px;
-	left:506px;
+	bottom:00px;
+	left:240px;
+}
+
+ #why{
+	font-family: sans-serif;
+	color: #7a6b9d; 
 }
