@@ -2,7 +2,7 @@
 
  img{
   float: right;
-  width: 40%;
+  width: 50%;
   position:clear left;
  } 
 
@@ -10,12 +10,8 @@
   background-color:#c1c8e4;
   margin: 0px;
   float:left;
-  width:50%;
+  width:45%;
   height:600px;
-}
-
-p { 
-  word-spacing: 30px;
 }
 
 .rw-wrapper{
@@ -90,12 +86,22 @@ p {
     left:100px;
 }
 #myDIV{
+	border:transparent;
+	margin:opx;
+	padding:0px;
+	background-image: linear-gradient(90deg ,#c1c8e4 50%,white 50%);
 	display:none;
 	position:fixed;
-	top:300px;
+	top:200px;
+	left:540px;
 }
 #mySecondiv{
+	border:transparent;
+	margin:opx;
+	padding:0px;
+	background-image: linear-gradient(90deg ,#c1c8e4 50%,white 50%);
 	display:none;
 	position:fixed;
-	top:100px;
+	top:342px;
+	left:506px;
 }
