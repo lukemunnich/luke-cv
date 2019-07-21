@@ -1,13 +1,14 @@
 
-
+/* styling image */
  img{
   float: right;
   width: 60%;
-  height:50%;
+  height:660px;
   position:clear left;
   top:opx;
  } 
 
+ /* setting animation text divs position and styles before span */
 .rw-wrapper{
   float:left;
 	width: 35%;
@@ -20,6 +21,8 @@
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
+
+/* setting animation text divs style after span */
 .rw-sentence span{
 	color: #444;
 	white-space: nowrap;
@@ -38,27 +41,35 @@
 	width:100%;
 	color: #6b969d;
 }
+
+/* defining animation action  */
 .rw-words-1 span{
-	animation: rotateWordsFirst 18s linear infinite 0s;
+	animation: rotateWordsFirst 24s linear infinite 0s;
 }
 
+/* targeting child elements and settting animation delay time */
 .rw-words span:nth-child(2) { 
-	animation-delay: 3s; 
+	animation-delay: 4s; 
 	color: #6b889d;
 }
 .rw-words span:nth-child(3) { 
-	animation-delay: 6s; 
+	animation-delay: 8s; 
 	color: #6b739d;	
 }
 .rw-words span:nth-child(4) { 
-	animation-delay: 9s; 
+	animation-delay: 12s; 
 	color: #7a6b9d;
 }
 .rw-words span:nth-child(5) { 
-	animation-delay: 12s; 
+	animation-delay: 16s; 
+	color: #8d6b9d;
+}
+.rw-words span:nth-child(6) {
+	animation-delay:20s; 
 	color: #8d6b9d;
 }
 
+/* defining word animation */
 @keyframes rotateWordsFirst {
   0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
   8% { opacity: 1; height: 60px; }
@@ -67,9 +78,10 @@
   100% { opacity: 0; }
 }
 
+/* styling and positioning buttons */
 #button2{
 	border: 2px solid rgb(249, 253, 249);
-	border-radius: 4px;
+	border-radius: 12px;
 	position: fixed;
 	bottom:100px;
 	right:200px;
@@ -77,11 +89,13 @@
 
 #button1{
 	border: 2px solid;
-	border-radius: 4px;
+	border-radius: 12px;
 	position: fixed;
 	bottom:100px;
     left:100px;
 }
+
+/* styling text display divs */
 #myDIV{
 	border:transparent;
 	margin:opx;
@@ -104,6 +118,7 @@
 	left:239px;
 }
 
- #why{
+/* styling text */
+ #name{
 	font-family:'Londrina Shadow', cursive;
 }

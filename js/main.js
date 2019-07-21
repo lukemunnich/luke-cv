@@ -1,4 +1,5 @@
-function myFunction() {
+// cofiguring first button
+function myFirstbt() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "block") {
       x.style.display = "none";
@@ -7,7 +8,8 @@ function myFunction() {
     }
   }
   
-  function mySecondiv() {
+  // configuring second button
+  function mySecondbt() {
     var x = document.getElementById("mySecondiv");
     if (x.style.display === "block") {
       x.style.display = "none";
