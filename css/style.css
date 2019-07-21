@@ -68,12 +68,16 @@
 }
 
 #button2{
+	border: 2px solid rgb(249, 253, 249);
+	border-radius: 4px;
 	position: fixed;
 	bottom:100px;
 	right:200px;
 }
 
 #button1{
+	border: 2px solid;
+	border-radius: 4px;
 	position: fixed;
 	bottom:100px;
     left:100px;
@@ -97,10 +101,9 @@
 	display:none;
 	position:fixed;
 	bottom:00px;
-	left:240px;
+	left:239px;
 }
 
  #why{
-	font-family: sans-serif;
-	color: #7a6b9d; 
+	font-family:'Londrina Shadow', cursive;
 }
