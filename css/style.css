@@ -100,7 +100,7 @@
 	border:transparent;
 	margin:opx;
 	padding:0px;
-	background-image: linear-gradient(90deg ,#c1c8e4 75%,white 25%);
+	background-image: linear-gradient(90deg ,#9caae0 75%,white 25%);
 	display:none;
 	position:fixed;
 	bottom:180px;
@@ -111,7 +111,7 @@
 	border:transparent;
 	margin:opx;
 	padding:0px;
-	background-image: linear-gradient(90deg ,#c1c8e4 65%,white 35%);
+	background-image: linear-gradient(90deg ,#9caae0 65%,white 35%);
 	display:none;
 	position:fixed;
 	bottom:00px;
